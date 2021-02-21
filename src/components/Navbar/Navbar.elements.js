@@ -51,7 +51,6 @@ export const MobileIcon = styled.div `
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    
   }
 `;
 
@@ -59,7 +58,6 @@ export const NavMenu = styled.ul `
   display: flex;
   align-items: center;
   list-style: none;
-  
 
   @media screen and (max-width: 960px) {
     display: flex;
@@ -72,19 +70,15 @@ export const NavMenu = styled.ul `
     opacity: 1;
     transition: all 0.5s ease;
     background: #3b3054;
-    color:#bfbfbf;
-    border-bottom: 2px solid transparent;
-    border-radius: 10px;
     width:90%;
     margin:5%;
+    border-radius:10px;
   }
 `;
 
 export const NavItem = styled.li `
   height: 80px;
   border-bottom: 2px solid transparent;
-  
-
 
   &:hover {
     font-weight : bold;
@@ -102,9 +96,7 @@ export const NavItem = styled.li `
       border: none;
       color:#bfbfbf;
   font-size:30px;
-  font-weight : bold;
-
-    }
+  font-weight : bold;}
   }
 `;
 
@@ -117,7 +109,6 @@ export const NavItemBtn = styled.li `
     height: 120px;
     border-radius: 40px;
     color:#fff;
-    
   }
 `;
 
@@ -135,6 +126,7 @@ export const NavLinks = styled(Link)
       font-weight:bold;
   }
 
+
   @media screen and (max-width: 960px) {
     text-align: center;
     padding: 2rem;
@@ -145,7 +137,6 @@ export const NavLinks = styled(Link)
       color: #4b59f7;
       transition: all 0.3s ease;
       font-weight:bold;
-
     }
   }
 `;
@@ -159,6 +150,6 @@ export const NavBtnLink = styled(Link)
   padding: 8px 16px;
   height: 100%;
   width: 100%;
-  border-radius: 40px;
+  border: none;
   outline: none;
 `;

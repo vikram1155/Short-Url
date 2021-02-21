@@ -20,11 +20,11 @@ function Short() {
         .then(response => response.json())
         .then((data) => {
             console.log(data);
-            setResult(data.result.short_link);
+            setResult(data.result.full_short_link);
             setAllFetched(true);
         });
 
-        console.log("here" , result);
+        console.log(result);
     }
 
     useEffect(() => {
@@ -41,7 +41,7 @@ function Short() {
                 <input 
                 type="text" 
                 placeholder="Shorten a link here" 
-                style={{height:"44px", width:"600px",borderRadius:"10px",marginRight:"10px"}}
+                style={{height:"44px", width:"100%",borderRadius:"10px"}}
                 id="URL"
                 name="URL"
                 value={URL}
@@ -53,10 +53,13 @@ function Short() {
                     Shorten it!
                 </Button>
                 </form>
-                Short Link:<a style={{textDecoration:"none"}} href={result}>{result}</a>
                 </CardsCardInfo>
             </CardsCardshort>
-            </CardsContainer>
+            </CardsContainer><br></br><br></br><br></br><br></br><br></br>
+            <div>
+            Short Link:<a style={{textDecoration:"none"}} href={result}>{result}</a>
+
+            </div>
         </div>
     )
 }
