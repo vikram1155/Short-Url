@@ -1,5 +1,4 @@
 {
-    "homepage": "http:/vikram1155.github.io/Short-Url",
     "name": "react-website-v2",
     "version": "0.1.0",
     "private": true,
@@ -7,6 +6,7 @@
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
         "@testing-library/user-event": "^7.1.2",
+        "firebase": "^7.24.0",
         "node-url-shortener": "^1.1.11",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",

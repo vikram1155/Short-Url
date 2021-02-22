@@ -26,6 +26,29 @@ export const Container = styled.div `
   }
 `;
 
+
+export const Search = styled.div `
+  border-radius: 5px;
+  background: ${({ primary }) => (primary ? '#fff' : '#fff')};
+  white-space: nowrap;
+  padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
+  color: #000;
+  font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.1s ease-out;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    alignItems:center;
+    textAlign:center;
+  }
+`;
+
 export const Button = styled.button `
   border-radius: 40px;
   background: ${({ primary }) => (primary ? '#2acfcf' : '#2acfcf')};

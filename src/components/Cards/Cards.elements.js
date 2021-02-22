@@ -63,8 +63,12 @@ export const CardsCardshort = styled(Link)
   }
 
   @media screen and (max-width: 960px) {
-    width: 90%;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
   }
 `;
 

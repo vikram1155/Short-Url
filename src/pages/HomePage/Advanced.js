@@ -3,9 +3,10 @@ import React from 'react'
 function Advanced() {
     return (
         <div>
+        
             <div style={{ backgroundColor:"#bfbfbf"}} >
-                <br></br>
-                <br></br>
+                
+
                 <h1 style={{ alignContent:"center",fontSize:"38px" ,textAlign:"center", color:" #232127" }}>
                 Advanced Statistics</h1>      <br></br>
                 <br></br>
